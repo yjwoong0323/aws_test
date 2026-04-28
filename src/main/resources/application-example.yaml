@@ -3,10 +3,9 @@ spring:
     name: hello-spring
 
   datasource:
-    url: jdbc:h2:tcp://localhost/~/test
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: 9874
 
   jpa:
     show-sql: true
